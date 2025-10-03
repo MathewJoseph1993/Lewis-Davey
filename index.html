@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lewis Davey Strategic Analysis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="presentation-container">
+        <!-- Slide Counter -->
+        <div class="slide-counter">
+            <span id="current-slide">1</span> / <span id="total-slides">14</span>
+        </div>
+
+        <!-- Navigation -->
+        <div class="navigation">
+            <button id="prev-btn" class="nav-btn" disabled>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+                Previous
+            </button>
+            <button id="next-btn" class="nav-btn">
+                Next
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Slides Container -->
+        <div class="slides-container">
+            
+            <!-- Slide 1: Title -->
+            <div class="slide active" data-type="title">
+                <div class="slide-content title-slide">
+                    <h1>Lewis Davey Strategic Analysis</h1>
+                    <h2>Market Research & Positioning Assessment</h2>
+                    <div class="author-info">
+                        <p>Prepared by <strong>Mathew</strong></p>
+                        <p>October 2025</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2: Stat -->
+            <div class="slide" data-type="stat">
+                <div class="slide-content stat-slide">
+                    <h2>The ESG Market Is Booming</h2>
+                    <div class="stat-display">
+                        <div class="stat-number">25%</div>
+                        <div class="stat-label">Annual Growth Rate</div>
+                    </div>
+                    <ul class="bullet-list">
+                        <li>Green talent hired 72% faster than general workforce</li>
+                        <li>Renewable energy added 2.5M jobs in one year</li>
+                        <li>ESG recruitment is now a $2B+ global industry</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Slide 3: Contrast -->
+            <div class="slide" data-type="contrast">
+                <div class="slide-content contrast-slide">
+                    <h2>But Lewis Davey Is Struggling</h2>
+                    <div class="contrast-container">
+                        <div class="contrast-column">
+                            <h3>The Market</h3>
+                            <ul>
+                                <li>Growing 25% annually</li>
+                                <li>Record demand</li>
+                                <li>New roles created daily</li>
+                            </ul>
+                        </div>
+                        <div class="contrast-column">
+                            <h3>Lewis Davey</h3>
+                            <ul>
+                                <li>LinkedIn Recruiter expiring</li>
+                                <li>Evaluating whether to renew</li>
+                                <li>Seeking new approach</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4: Question -->
+            <div class="slide" data-type="question">
+                <div class="slide-content question-slide">
+                    <h2>The Uncomfortable Question</h2>
+                    <div class="question-block">
+                        <p class="question">If the market is growing 25% annually and you're struggling, what does that say about Lewis Davey?</p>
+                    </div>
+                    <div class="answer-block">
+                        <p class="answer">You're not losing because the market is bad. You're losing because your positioning is wrong.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 5: Matrix -->
+            <div class="slide" data-type="matrix">
+                <div class="slide-content matrix-slide">
+                    <h2>You're Spread Too Thin</h2>
+                    <p class="subtitle">6 Verticals × 4 Geographies = 24 Market Combinations</p>
+                    <div class="matrix-grid">
+                        <div class="matrix-header">
+                            <div></div>
+                            <div>UK</div>
+                            <div>EU</div>
+                            <div>NA</div>
+                            <div>ME</div>
+                        </div>
+                        <div class="matrix-row">
+                            <div class="vertical-name">Sustainable Buildings</div>
+                            <div class="market-cell">✓</div>
+                            <div class="market-cell">✓</div>
+                            <div class="market-cell">✓</div>
+                            <div class="market-cell">✓</div>
+                        </div>
+                        <div class="matrix-row">
+                            <div class="vertical-name">Corporate ESG</div>
+                            <div class="market-cell">✓</div>
+                            <div class="market-cell">✓</div>
+                            <div class="market-cell">✓</div>
+                            <div class="market-cell">✓</div>
+                        </div>
+                        <div class="matrix-row">
+                            <div class="vertical-name">Renewables</div>
+                            <div class="market-cell">✓</div>
+                            <div class="market-cell">✓</div>
+                            <div class="market-cell">✓</div>
+                            <div class="market-cell">✓</div>
+                        </div>
+                        <div class="matrix-row">
+                            <div class="vertical-name">Responsible Investment</div>
+                            <div class="market-cell">✓</div>
+                            <div class="market-cell">✓</div>
+                            <div class="market-cell">✓</div>
+                            <div class="market-cell">✓</div>
+                        </div>
+                        <div class="matrix-row">
+                            <div class="vertical-name">Carbon Markets</div>
+                            <div class="market-cell">✓</div>
+                            <div class="market-cell">✓</div>
+                            <div class="market-cell">✓</div>
+                            <div class="market-cell">✓</div>
+                        </div>
+                        <div class="matrix-row">
+                            <div class="vertical-name">Nature Solutions</div>
+                            <div class="market-cell">✓</div>
+                            <div class="market-cell">✓</div>
+                            <div class="market-cell">✓</div>
+                            <div class="market-cell">✓</div>
+                        </div>
+                    </div>
+                    <p class="matrix-footer">9 employees trying to compete across 24+ market segments</p>
+                </div>
+            </div>
+
+            <!-- Slide 6: Comparison -->
+            <div class="slide" data-type="comparison">
+                <div class="slide-content comparison-slide">
+                    <h2>Your Competitors Have Evolved</h2>
+                    <div class="comparison-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Company</th>
+                                    <th>Employees</th>
+                                    <th>Technology</th>
+                                    <th>Presence</th>
+                                    <th>Reach</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="highlight">
+                                    <td><strong>Lewis Davey</strong></td>
+                                    <td>9</td>
+                                    <td>Manual LinkedIn</td>
+                                    <td>UK-based</td>
+                                    <td>Personal network</td>
+                                </tr>
+                                <tr>
+                                    <td>Acre Resources</td>
+                                    <td>200+</td>
+                                    <td>Proprietary intelligence</td>
+                                    <td>Global offices</td>
+                                    <td>Market dominance</td>
+                                </tr>
+                                <tr>
+                                    <td>Climate17</td>
+                                    <td>N/A</td>
+                                    <td>Content marketing</td>
+                                    <td>Digital-first</td>
+                                    <td>51,000 followers</td>
+                                </tr>
+                                <tr>
+                                    <td>EnableGreen</td>
+                                    <td>N/A</td>
+                                    <td>Tech-forward</td>
+                                    <td>Dubai office</td>
+                                    <td>ME incumbent</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 7: Trend -->
+            <div class="slide" data-type="trend">
+                <div class="slide-content trend-slide">
+                    <h2>Your Historical Strength Is Declining</h2>
+                    <p class="subtitle">Real Estate Sustainability Hiring</p>
+                    <div class="trend-indicator">
+                        <span class="trend-arrow">↘</span>
+                        <span class="trend-text">Flat/Declining</span>
+                    </div>
+                    <ul class="reasons-list">
+                        <li>Most firms already have ESG functions (market saturation)</li>
+                        <li>Capital constraints delaying projects</li>
+                        <li>Longer project lead times</li>
+                        <li>US showing only "modest adoption"</li>
+                    </ul>
+                    <div class="insight">
+                        <p><strong>Insight:</strong> Diversification wasn't optional - it was survival</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 8: Validation -->
+            <div class="slide" data-type="validation">
+                <div class="slide-content validation-slide">
+                    <h2>What You're Getting Right</h2>
+                    <div class="validation-list">
+                        <div class="validation-item">
+                            <span class="checkmark">✓</span>
+                            <div>
+                                <strong>UK TCFD = Forced Demand</strong>
+                                <p>Correct - 1,300+ companies must comply</p>
+                            </div>
+                        </div>
+                        <div class="validation-item">
+                            <span class="checkmark">✓</span>
+                            <div>
+                                <strong>Email Effectiveness Declining</strong>
+                                <p>Correct - 2-5% response vs 10-15% LinkedIn</p>
+                            </div>
+                        </div>
+                        <div class="validation-item">
+                            <span class="checkmark">✓</span>
+                            <div>
+                                <strong>Need for Technology</strong>
+                                <p>Correct - Automation = 30-50% efficiency gains</p>
+                            </div>
+                        </div>
+                        <div class="validation-item">
+                            <span class="checkmark">✓</span>
+                            <div>
+                                <strong>Company Size Focus (50-200)</strong>
+                                <p>Correct - Optimal decision speed + budget</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 9: Opportunity -->
+            <div class="slide" data-type="opportunity">
+                <div class="slide-content opportunity-slide">
+                    <h2>The Highest-Probability Opportunity</h2>
+                    <div class="opportunity-focus">
+                        <h3>UK Listed Companies - TCFD Compliance</h3>
+                    </div>
+                    <div class="opportunity-stats">
+                        <div class="stat-item">
+                            <div class="stat-value">1,300+</div>
+                            <div class="stat-label">Companies</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">2025-2026</div>
+                            <div class="stat-label">Timeline</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">Forced</div>
+                            <div class="stat-label">Market Type</div>
+                        </div>
+                    </div>
+                    <div class="why-section">
+                        <h4>Why This Works:</h4>
+                        <ul>
+                            <li>Mandatory compliance (not optional)</li>
+                            <li>Time-sensitive deadlines</li>
+                            <li>Your home market advantage</li>
+                            <li>Predictable hiring needs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 10: Timeline -->
+            <div class="slide" data-type="timeline">
+                <div class="slide-content timeline-slide">
+                    <h2>Middle East: Not Now</h2>
+                    <p class="subtitle">What you said vs what the research shows</p>
+                    <div class="timeline-comparison">
+                        <div class="your-view">
+                            <h4>Your View:</h4>
+                            <p>"Middle East has more money and traction"</p>
+                        </div>
+                        <div class="reality">
+                            <h4>Reality:</h4>
+                            <p>True, but...</p>
+                        </div>
+                    </div>
+                    <div class="requirements">
+                        <h4>Requirements:</h4>
+                        <ul>
+                            <li>Local partnerships (6-12 months to establish)</li>
+                            <li>Regulatory expertise (Emiratization quotas)</li>
+                            <li>Cultural adaptation (Arabic language, local networks)</li>
+                            <li>Salary benchmarking (no standardized data)</li>
+                            <li>EnableGreen already has Dubai office</li>
+                        </ul>
+                    </div>
+                    <div class="conclusion">
+                        <strong>Conclusion:</strong> Medium-term opportunity, not immediate priority
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 11: Newsflash -->
+            <div class="slide" data-type="newsflash">
+                <div class="slide-content newsflash-slide">
+                    <h2>EU CSRD: Opportunity Narrowed</h2>
+                    <div class="news-banner">
+                        <h3>December 2024: CSRD scope reduced by 80%</h3>
+                    </div>
+                    <div class="before-after">
+                        <div class="before">
+                            <h4>Before:</h4>
+                            <p>50,000 companies affected</p>
+                        </div>
+                        <div class="after">
+                            <h4>After:</h4>
+                            <p>10,000 companies affected</p>
+                        </div>
+                    </div>
+                    <div class="impact">
+                        <h4>Impact:</h4>
+                        <ul>
+                            <li>Wave 1 (2025): 11,700 companies - unchanged</li>
+                            <li>Wave 2: Delayed from 2026 → 2028</li>
+                            <li>New threshold: 1,000+ employees (up from 250+)</li>
+                        </ul>
+                    </div>
+                    <div class="takeaway">
+                        <strong>Takeaway:</strong> Maximize Wave 1 window before market saturates
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 12: Choice -->
+            <div class="slide" data-type="choice">
+                <div class="slide-content choice-slide">
+                    <h2>Three Strategic Options</h2>
+                    <div class="options-container">
+                        <div class="option">
+                            <div class="option-number">1</div>
+                            <h4>Blame External Factors</h4>
+                            <p>"Market is tough, competitors are unfair, LinkedIn doesn't work anymore"</p>
+                            <div class="outcome">Outcome: Continue struggling</div>
+                        </div>
+                        <div class="option">
+                            <div class="option-number">2</div>
+                            <h4>Double Down on Current Approach</h4>
+                            <p>Pursue all 6 verticals × 4 geographies simultaneously</p>
+                            <div class="outcome">Outcome: Spread even thinner</div>
+                        </div>
+                        <div class="option recommended">
+                            <div class="option-number">3</div>
+                            <h4>Radical Focus</h4>
+                            <p>Dominate ONE segment (UK TCFD), prove it works, then expand</p>
+                            <div class="outcome">Outcome: Build momentum</div>
+                            <div class="recommended-badge">Recommended</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 13: Recommendation -->
+            <div class="slide" data-type="recommendation">
+                <div class="slide-content recommendation-slide">
+                    <h2>My Recommendation</h2>
+                    <div class="recommendation-statement">
+                        <p>Focus UK listed companies with TCFD compliance deadlines. Dominate that segment. Generate revenue. Then expand.</p>
+                    </div>
+                    <div class="why-section">
+                        <p>This isn't what you want to hear. But it's what the data says will work.</p>
+                    </div>
+                    <div class="emphasis">
+                        <h3>Focus beats breadth. Always.</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 14: Final (Thank you) -->
+            <div class="slide" data-type="final">
+                <div class="slide-content final-slide">
+                    <h1>Thank You</h1>
+                    <div class="contact-info">
+                        <p>Questions & Discussion</p>
+                        <p>Prepared by Mathew | October 2025</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
